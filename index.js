@@ -14,7 +14,7 @@ app.use(express.json());
 conectarDB();
 const PORT = process.env.PORT || 4000;
 
-const dominiosPermitidos = [process.env.FRONTEND_URL, process.env.BACKEND_URL];
+const dominiosPermitidos = [process.env.FRONTEND_URL, process.env.BACKEND_URL, 'https://main--lively-bienenstitch-c68675.netlify.app/'];
                              
 const corsOptions = {
     origin: function (origin, callback){
