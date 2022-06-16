@@ -10,7 +10,7 @@ const conectarDB = async () => {
         });
 
         const url = `${db.connection.host}:${db.connection.port}`;
-        console.log("Mongo DB conectado en: ", url);
+        console.log("Mongo DB conectado en : ", url);
 
     } catch (error) {
         console.log(`error: ${error.message}`);
