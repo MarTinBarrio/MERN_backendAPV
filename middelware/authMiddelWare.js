@@ -3,7 +3,7 @@ import Veterinario from "../models/Veterinario.js";
 
 const checkAuth = async (req, res, next) => {
     //console.log(req.headers.authorization);
-    //Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYTFmMzNhMWU4ZWM1ZGRlZTk3ZDg4MyIsImlhdCI6MTY1NDc4ODE4MSwiZXhwIjoxNjU1MDQ3MzgxfQ.3jtRP0VctwpzS2XiMrNkAujMOkL-jadsWTMUkGs_Yd4
+    //Bearer xxx
 
     let token;
 
